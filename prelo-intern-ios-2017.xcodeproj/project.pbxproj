@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84CE4FA1ECC5CA000762B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */; };
+		C84CE4FC1ECC5CA000762B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE4FB1ECC5CA000762B04 /* ViewController.swift */; };
+		C84CE4FF1ECC5CA100762B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84CE4FD1ECC5CA100762B04 /* Main.storyboard */; };
+		C84CE5011ECC5CA100762B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84CE5001ECC5CA100762B04 /* Assets.xcassets */; };
+		C84CE5041ECC5CA100762B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84CE5021ECC5CA100762B04 /* LaunchScreen.storyboard */; };
+		C84CE50F1ECC5CA200762B04 /* prelo_intern_ios_2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE50E1ECC5CA200762B04 /* prelo_intern_ios_2017Tests.swift */; };
+		C84CE51A1ECC5CA200762B04 /* prelo_intern_ios_2017UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE5191ECC5CA200762B04 /* prelo_intern_ios_2017UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C84CE50B1ECC5CA200762B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84CE4EE1ECC5C9D00762B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84CE4F51ECC5C9D00762B04;
+			remoteInfo = "prelo-intern-ios-2017";
+		};
+		C84CE5161ECC5CA200762B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84CE4EE1ECC5C9D00762B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84CE4F51ECC5C9D00762B04;
+			remoteInfo = "prelo-intern-ios-2017";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C84CE4F61ECC5C9F00762B04 /* prelo-intern-ios-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prelo-intern-ios-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C84CE4FB1ECC5CA000762B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84CE4FE1ECC5CA100762B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C84CE5001ECC5CA100762B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C84CE5031ECC5CA100762B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C84CE5051ECC5CA100762B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84CE50A1ECC5CA200762B04 /* prelo-intern-ios-2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prelo-intern-ios-2017Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84CE50E1ECC5CA200762B04 /* prelo_intern_ios_2017Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prelo_intern_ios_2017Tests.swift; sourceTree = "<group>"; };
+		C84CE5101ECC5CA200762B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84CE5151ECC5CA200762B04 /* prelo-intern-ios-2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prelo-intern-ios-2017UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84CE5191ECC5CA200762B04 /* prelo_intern_ios_2017UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prelo_intern_ios_2017UITests.swift; sourceTree = "<group>"; };
+		C84CE51B1ECC5CA200762B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84CE4F31ECC5C9D00762B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CE5071ECC5CA200762B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CE5121ECC5CA200762B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C84CE4ED1ECC5C9C00762B04 = {
+			isa = PBXGroup;
+			children = (
+				C84CE4F81ECC5C9F00762B04 /* prelo-intern-ios-2017 */,
+				C84CE50D1ECC5CA200762B04 /* prelo-intern-ios-2017Tests */,
+				C84CE5181ECC5CA200762B04 /* prelo-intern-ios-2017UITests */,
+				C84CE4F71ECC5C9F00762B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84CE4F71ECC5C9F00762B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84CE4F61ECC5C9F00762B04 /* prelo-intern-ios-2017.app */,
+				C84CE50A1ECC5CA200762B04 /* prelo-intern-ios-2017Tests.xctest */,
+				C84CE5151ECC5CA200762B04 /* prelo-intern-ios-2017UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84CE4F81ECC5C9F00762B04 /* prelo-intern-ios-2017 */ = {
+			isa = PBXGroup;
+			children = (
+				C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */,
+				C84CE4FB1ECC5CA000762B04 /* ViewController.swift */,
+				C84CE4FD1ECC5CA100762B04 /* Main.storyboard */,
+				C84CE5001ECC5CA100762B04 /* Assets.xcassets */,
+				C84CE5021ECC5CA100762B04 /* LaunchScreen.storyboard */,
+				C84CE5051ECC5CA100762B04 /* Info.plist */,
+			);
+			path = "prelo-intern-ios-2017";
+			sourceTree = "<group>";
+		};
+		C84CE50D1ECC5CA200762B04 /* prelo-intern-ios-2017Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C84CE50E1ECC5CA200762B04 /* prelo_intern_ios_2017Tests.swift */,
+				C84CE5101ECC5CA200762B04 /* Info.plist */,
+			);
+			path = "prelo-intern-ios-2017Tests";
+			sourceTree = "<group>";
+		};
+		C84CE5181ECC5CA200762B04 /* prelo-intern-ios-2017UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C84CE5191ECC5CA200762B04 /* prelo_intern_ios_2017UITests.swift */,
+				C84CE51B1ECC5CA200762B04 /* Info.plist */,
+			);
+			path = "prelo-intern-ios-2017UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84CE4F51ECC5C9D00762B04 /* prelo-intern-ios-2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84CE51E1ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017" */;
+			buildPhases = (
+				C84CE4F21ECC5C9D00762B04 /* Sources */,
+				C84CE4F31ECC5C9D00762B04 /* Frameworks */,
+				C84CE4F41ECC5C9D00762B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prelo-intern-ios-2017";
+			productName = "prelo-intern-ios-2017";
+			productReference = C84CE4F61ECC5C9F00762B04 /* prelo-intern-ios-2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C84CE5091ECC5CA200762B04 /* prelo-intern-ios-2017Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84CE5211ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017Tests" */;
+			buildPhases = (
+				C84CE5061ECC5CA200762B04 /* Sources */,
+				C84CE5071ECC5CA200762B04 /* Frameworks */,
+				C84CE5081ECC5CA200762B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84CE50C1ECC5CA200762B04 /* PBXTargetDependency */,
+			);
+			name = "prelo-intern-ios-2017Tests";
+			productName = "prelo-intern-ios-2017Tests";
+			productReference = C84CE50A1ECC5CA200762B04 /* prelo-intern-ios-2017Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C84CE5141ECC5CA200762B04 /* prelo-intern-ios-2017UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84CE5241ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017UITests" */;
+			buildPhases = (
+				C84CE5111ECC5CA200762B04 /* Sources */,
+				C84CE5121ECC5CA200762B04 /* Frameworks */,
+				C84CE5131ECC5CA200762B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84CE5171ECC5CA200762B04 /* PBXTargetDependency */,
+			);
+			name = "prelo-intern-ios-2017UITests";
+			productName = "prelo-intern-ios-2017UITests";
+			productReference = C84CE5151ECC5CA200762B04 /* prelo-intern-ios-2017UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84CE4EE1ECC5C9D00762B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chyntia Leonie Andreas";
+				TargetAttributes = {
+					C84CE4F51ECC5C9D00762B04 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C84CE5091ECC5CA200762B04 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C84CE4F51ECC5C9D00762B04;
+					};
+					C84CE5141ECC5CA200762B04 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C84CE4F51ECC5C9D00762B04;
+					};
+				};
+			};
+			buildConfigurationList = C84CE4F11ECC5C9D00762B04 /* Build configuration list for PBXProject "prelo-intern-ios-2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84CE4ED1ECC5C9C00762B04;
+			productRefGroup = C84CE4F71ECC5C9F00762B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84CE4F51ECC5C9D00762B04 /* prelo-intern-ios-2017 */,
+				C84CE5091ECC5CA200762B04 /* prelo-intern-ios-2017Tests */,
+				C84CE5141ECC5CA200762B04 /* prelo-intern-ios-2017UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84CE4F41ECC5C9D00762B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84CE5041ECC5CA100762B04 /* LaunchScreen.storyboard in Resources */,
+				C84CE5011ECC5CA100762B04 /* Assets.xcassets in Resources */,
+				C84CE4FF1ECC5CA100762B04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CE5081ECC5CA200762B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CE5131ECC5CA200762B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84CE4F21ECC5C9D00762B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84CE4FC1ECC5CA000762B04 /* ViewController.swift in Sources */,
+				C84CE4FA1ECC5CA000762B04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CE5061ECC5CA200762B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84CE50F1ECC5CA200762B04 /* prelo_intern_ios_2017Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CE5111ECC5CA200762B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84CE51A1ECC5CA200762B04 /* prelo_intern_ios_2017UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C84CE50C1ECC5CA200762B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84CE4F51ECC5C9D00762B04 /* prelo-intern-ios-2017 */;
+			targetProxy = C84CE50B1ECC5CA200762B04 /* PBXContainerItemProxy */;
+		};
+		C84CE5171ECC5CA200762B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84CE4F51ECC5C9D00762B04 /* prelo-intern-ios-2017 */;
+			targetProxy = C84CE5161ECC5CA200762B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C84CE4FD1ECC5CA100762B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84CE4FE1ECC5CA100762B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C84CE5021ECC5CA100762B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84CE5031ECC5CA100762B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C84CE51C1ECC5CA200762B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C84CE51D1ECC5CA200762B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84CE51F1ECC5CA200762B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "prelo-intern-ios-2017/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chyn.prelo-intern-ios-2017";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C84CE5201ECC5CA200762B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "prelo-intern-ios-2017/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chyn.prelo-intern-ios-2017";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C84CE5221ECC5CA200762B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "prelo-intern-ios-2017Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chyn.prelo-intern-ios-2017Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prelo-intern-ios-2017.app/prelo-intern-ios-2017";
+			};
+			name = Debug;
+		};
+		C84CE5231ECC5CA200762B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "prelo-intern-ios-2017Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chyn.prelo-intern-ios-2017Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prelo-intern-ios-2017.app/prelo-intern-ios-2017";
+			};
+			name = Release;
+		};
+		C84CE5251ECC5CA200762B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "prelo-intern-ios-2017UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chyn.prelo-intern-ios-2017UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "prelo-intern-ios-2017";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C84CE5261ECC5CA200762B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "prelo-intern-ios-2017UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chyn.prelo-intern-ios-2017UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "prelo-intern-ios-2017";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84CE4F11ECC5C9D00762B04 /* Build configuration list for PBXProject "prelo-intern-ios-2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84CE51C1ECC5CA200762B04 /* Debug */,
+				C84CE51D1ECC5CA200762B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84CE51E1ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84CE51F1ECC5CA200762B04 /* Debug */,
+				C84CE5201ECC5CA200762B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84CE5211ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84CE5221ECC5CA200762B04 /* Debug */,
+				C84CE5231ECC5CA200762B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84CE5241ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84CE5251ECC5CA200762B04 /* Debug */,
+				C84CE5261ECC5CA200762B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84CE4EE1ECC5C9D00762B04 /* Project object */;
+}
