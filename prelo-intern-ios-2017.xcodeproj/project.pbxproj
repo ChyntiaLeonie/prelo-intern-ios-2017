@@ -101,7 +101,6 @@
 				C84CE4FB1ECC5CA000762B04 /* ViewController.swift */,
 				C84CE4FD1ECC5CA100762B04 /* Main.storyboard */,
 				C84CE5001ECC5CA100762B04 /* Assets.xcassets */,
-				C84CE5021ECC5CA100762B04 /* LaunchScreen.storyboard */,
 				C84CE5051ECC5CA100762B04 /* Info.plist */,
 			);
 			path = "prelo-intern-ios-2017";
@@ -110,6 +109,7 @@
 		C84CE50D1ECC5CA200762B04 /* prelo-intern-ios-2017Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C84CE5021ECC5CA100762B04 /* LaunchScreen.storyboard */,
 				C84CE50E1ECC5CA200762B04 /* prelo_intern_ios_2017Tests.swift */,
 				C84CE5101ECC5CA200762B04 /* Info.plist */,
 			);
@@ -307,6 +307,7 @@
 				C84CE5031ECC5CA100762B04 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../prelo-intern-ios-2017";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
