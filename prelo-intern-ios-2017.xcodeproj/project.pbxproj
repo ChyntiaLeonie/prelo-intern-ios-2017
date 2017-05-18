@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81D58571ECD9A0A00962D7A /* LoveListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81D58561ECD9A0A00962D7A /* LoveListCell.swift */; };
 		C84CE4FA1ECC5CA000762B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */; };
 		C84CE4FC1ECC5CA000762B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE4FB1ECC5CA000762B04 /* ViewController.swift */; };
 		C84CE4FF1ECC5CA100762B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84CE4FD1ECC5CA100762B04 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C81D58561ECD9A0A00962D7A /* LoveListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveListCell.swift; sourceTree = "<group>"; };
 		C84CE4F61ECC5C9F00762B04 /* prelo-intern-ios-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prelo-intern-ios-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C84CE4FB1ECC5CA000762B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				C84CE4FD1ECC5CA100762B04 /* Main.storyboard */,
 				C84CE5001ECC5CA100762B04 /* Assets.xcassets */,
 				C84CE5051ECC5CA100762B04 /* Info.plist */,
+				C81D58561ECD9A0A00962D7A /* LoveListCell.swift */,
 			);
 			path = "prelo-intern-ios-2017";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81D58571ECD9A0A00962D7A /* LoveListCell.swift in Sources */,
 				C84CE4FC1ECC5CA000762B04 /* ViewController.swift in Sources */,
 				C84CE4FA1ECC5CA000762B04 /* AppDelegate.swift in Sources */,
 			);
@@ -485,6 +489,7 @@
 				C84CE5201ECC5CA200762B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84CE5211ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				C84CE5231ECC5CA200762B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84CE5241ECC5CA200762B04 /* Build configuration list for PBXNativeTarget "prelo-intern-ios-2017UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				C84CE5261ECC5CA200762B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

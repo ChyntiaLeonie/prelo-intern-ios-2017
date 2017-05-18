@@ -8,9 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var token : String = ""
+    
+    let cellReuseIdentifier = "cellLoveList"
+    
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +32,7 @@ class ViewController: UIViewController {
             
         }
         print("Token",self.token)
-        
+        tableView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,6 +70,27 @@ class ViewController: UIViewController {
         dataTask.resume()
     }
 
+    // number of rows in table view
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    // create a cell for each table view row
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell:LoveListCell = self.tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier) as! LoveListCell
+        cell.imageView?.image = UIImage(named: "prelo.png")
+        cell.titleProduct.text = "cobainlalala"
+        cell.priceProduct.text = "Rp 0"
+        cell.commentProduct.text = "0"
+        cell.likeProduct.text = "1"
+        return cell;
+    }
+    
+    
+    // method to run when table view cell is tapped
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
 
 }
 
