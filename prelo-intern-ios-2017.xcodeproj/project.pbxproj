@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
+=======
+		C80AD1011ECDBBBE004AD867 /* ProductLoveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80AD1001ECDBBBE004AD867 /* ProductLoveList.swift */; };
+		C81D58571ECD9A0A00962D7A /* LoveListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81D58561ECD9A0A00962D7A /* LoveListCell.swift */; };
+>>>>>>> Stashed changes
 		C84CE4FA1ECC5CA000762B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */; };
 		C84CE4FC1ECC5CA000762B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84CE4FB1ECC5CA000762B04 /* ViewController.swift */; };
 		C84CE4FF1ECC5CA100762B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84CE4FD1ECC5CA100762B04 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
+=======
+		C80AD1001ECDBBBE004AD867 /* ProductLoveList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLoveList.swift; sourceTree = "<group>"; };
+		C81D58561ECD9A0A00962D7A /* LoveListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveListCell.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		C84CE4F61ECC5C9F00762B04 /* prelo-intern-ios-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prelo-intern-ios-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84CE4F91ECC5CA000762B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C84CE4FB1ECC5CA000762B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +112,11 @@
 				C84CE4FD1ECC5CA100762B04 /* Main.storyboard */,
 				C84CE5001ECC5CA100762B04 /* Assets.xcassets */,
 				C84CE5051ECC5CA100762B04 /* Info.plist */,
+<<<<<<< Updated upstream
+=======
+				C81D58561ECD9A0A00962D7A /* LoveListCell.swift */,
+				C80AD1001ECDBBBE004AD867 /* ProductLoveList.swift */,
+>>>>>>> Stashed changes
 			);
 			path = "prelo-intern-ios-2017";
 			sourceTree = "<group>";
@@ -258,6 +273,7 @@
 			files = (
 				C84CE4FC1ECC5CA000762B04 /* ViewController.swift in Sources */,
 				C84CE4FA1ECC5CA000762B04 /* AppDelegate.swift in Sources */,
+				C80AD1011ECDBBBE004AD867 /* ProductLoveList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

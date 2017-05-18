@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     var token : String = ""
+    var allProduct:NSMutableArray = NSMutableArray()
+    var unDone : Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +29,17 @@ class ViewController: UIViewController {
         {
             
         }
+<<<<<<< Updated upstream
         print("Token",self.token)
         
+=======
+//        print("Token",self.token)
+        accessProductAPI()
+        while(unDone){
+            
+        }
+        tableView.delegate = self
+>>>>>>> Stashed changes
     }
 
     override func didReceiveMemoryWarning() {
@@ -65,7 +76,75 @@ class ViewController: UIViewController {
         )
         dataTask.resume()
     }
+    
+    func accessProductAPI(){
+        let req = NSMutableURLRequest(URL:NSURL(string:"https://dev.prelo.id/api/me/lovelist")!)
+        
+        req.HTTPMethod = "GET"
+        req.setValue("Token "+token, forHTTPHeaderField: "Authorization")
+        
+        let session = NSURLSession.sharedSession()
+        
+        let dataTask = session.dataTaskWithRequest(req,completionHandler: {(data,response,error) in
+            
+            if let convertedJsonIntoDict = try? NSJSONSerialization.JSONObjectWithData(data!, options: []){
+                
+                // Print out dictionary
+                //print("convertedJsonIntoDict \(convertedJsonIntoDict)")
+                
+                var pLoveList : ProductLoveList = ProductLoveList()
+                
+                if let array = convertedJsonIntoDict["_data"] as? [AnyObject] {
+                    for object in array {
+                        pLoveList = ProductLoveList()
+                        
+                        pLoveList.titleProduct = object["name"]! as! String
+                        pLoveList.priceProduct = object["price"]! as! Int
 
+                        pLoveList.commentProduct = object["num_comment"]! as! Int
+
+                        pLoveList.likeProduct = object["num_lovelist"]! as! Int
+
+                        self.allProduct.addObject(pLoveList)
+                    }
+                }
+                self.unDone = false;
+                
+            } else {
+                print("masuknya kesini")
+            }
+            }
+        )
+        dataTask.resume()
+    }
+    
+
+
+<<<<<<< Updated upstream
+=======
+    // number of rows in table view
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.allProduct.count
+    }
+    
+    // create a cell for each table view row
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell:LoveListCell = self.tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier) as! LoveListCell
+        let product = allProduct[indexPath.row] as! ProductLoveList
+        cell.imageView?.image = UIImage(named: "prelo.png")
+        cell.titleProduct.text = product.titleProduct
+        cell.priceProduct.text = "Rp "+String(product.priceProduct)
+        cell.commentProduct.text = String(product.commentProduct)
+        cell.likeProduct.text = String(product.likeProduct)
+        return cell;
+    }
+    
+    
+    // method to run when table view cell is tapped
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+>>>>>>> Stashed changes
 
 }
 
